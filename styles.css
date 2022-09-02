@@ -1,0 +1,87 @@
+body{
+  background: hsl(217, 54%, 11%);
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  margin: 50px 20px;
+  border-radius: 20px;
+
+}
+
+.card{
+  background: hsl(216, 50%, 16%);
+  font-family: 'Outfit', serif;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1,a{
+  color: hsl(0, 0%, 100%);
+}
+
+
+
+p{
+  color: hsl(215, 51%, 70%);
+  font-size: 18px; ;
+  font-weight: 300;
+}
+
+.eth{
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.etherum{
+  display: flex;
+  gap: 150px;
+}
+
+.details{
+  padding-inline: 25px;
+}
+
+.equilibrium{
+  border-radius: 10px;
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+
+}
+
+.divider{
+  border-bottom: 0.5px solid hsl(215, 51%, 70%);
+  margin: 10px 0px;
+}
+
+.avatar{
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  width: 17%;
+  margin-bottom: 15px;
+}
+
+.creator{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.attribution {
+ font-size: 11px; text-align: center; 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (min-height:495px) {
+  .card{
+    
+  }
+}
