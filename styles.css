@@ -79,9 +79,3 @@ p{
 .attribution a {
   color: hsl(228, 45%, 44%); 
 }
-
-@media (min-height:495px) {
-  .card{
-    
-  }
-}
